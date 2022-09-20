@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
+body {
+    background: #3A5C8E;
+    font-family: 'Quicksand', sans-serif;
+}
+
+div#app{
+    display: flex;
+    flex-direction: column;
+    background:#fff;
+    max-width: 540px;
+    margin: 96px auto;
+    padding: 32px;
+    border-radius: 24px;
+}
+
+#todo-title{
+    background: #CFDCC3;
+    padding:8px 16px;
+    font-weight: 900;
+    margin: auto;
+}
+
+#todo-subtitle{
+    margin: 16px auto;
+}
+
+#input{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    width: 75%;
+    margin: auto;
+}
+
+#todo-input{
+    width: 100%;
+    padding: 8px 12px;
+}
+
+#todo-submit{
+    padding: 8px;
+    cursor: pointer;
+}
+
+#todo-output{
+    margin-left: calc(25% / 2);
+}
